@@ -9,6 +9,6 @@ In comes the idea of the Open Workbench: I've begun gathering and developing equ
 To get started I'm going to add my Logic Analyzer. It's built off of the Pi Pico Analyzer project but includes some things that I thought would be useful or nice. There's always room for improvement and I hope everyone will contribute.
 
 ## To Do:
--Create a list of basic BUILDABLE equipment.
--Create a list of BUYABLE equipment.
--Choose a mounting system (I'm thinking DIN rails).
+- Create a list of basic BUILDABLE equipment.
+- Create a list of BUYABLE equipment.
+- Choose a mounting system (I'm thinking DIN rails).
