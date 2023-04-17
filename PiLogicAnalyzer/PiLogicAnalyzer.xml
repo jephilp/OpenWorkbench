@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jackp\Documents\GitHub\Personal\PiLogicAnalyzer\PiLogicAnalyzer.kicad_sch</source>
+    <date>1/25/2023 2:33:53 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PiLogicAnalyzer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d769089a-237c-4db2-b85e-cfe0c9a5f581</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b3fb33f-fca5-4a21-996b-e88105799f6d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddddefa1-d18e-48cd-a31c-32b5437b08ca</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90c4e796-0e7c-4d5c-b53a-3041390b7fb1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8188bd90-8362-450d-96c9-3c194bdc687e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c07ff384-177b-4e24-87a3-a64167d556bc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N47xxA</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/85816/1n4728a.pdf</datasheet>
+      <libsource lib="Diode" part="1N47xxA" description="1300mW Silicon planar power Zener diodes, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>360f7671-a195-4f5f-8060-19659fb8a34f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N47xxA</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/85816/1n4728a.pdf</datasheet>
+      <libsource lib="Diode" part="1N47xxA" description="1300mW Silicon planar power Zener diodes, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>432780c1-6430-4b47-b9b4-3ed7847279f5</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>261929df-5a04-4152-8b97-85daf35987f5</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9feebded-0b95-427c-9fce-fc9aed99aedf</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ce2fa36-a6db-48f8-b8e9-dcdbd3c3ece9</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x13_Top_Bottom</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x13_Top_Bottom" description="Generic connector, double row, 02x13, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb874f6-6724-406a-a5da-b1e920232909</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x04_Counter_Clockwise</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bd61193-c28b-4ccc-8814-58f28da47406</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3109b1ff-2a01-462b-a0ff-7ccfc6963071</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ff6399-8d6b-4d34-8597-4cd52c42e9f9</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>487ed088-36fd-42be-aaf0-4d0fb101419f</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75795d8c-27c2-4e45-aa22-a2e1aaf83b0a</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c9ee9ca-5010-4735-ac0c-6dd99c6d7974</tstamps>
+    </comp>
+    <comp ref="R0">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>018e8b17-1212-4701-a45e-3f454bf5cd20</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ad2b503-bca0-4300-bf91-aaeb5ad0ec0b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7ad06fc-8eb5-4f14-be5a-9b7d08b32e5c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce37cc67-24f0-4bf3-a2b3-be3fbf25bdc9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d39b101-8195-4b74-a940-35903507900a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30cbdf5c-8b68-4635-9141-0245460a4a29</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b2f5e90-e845-4c73-8600-44589c341392</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d813b027-0fce-465b-9859-3a574cc21e8d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bf263ab-843f-4ad6-bf7a-15b6c038db4c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfd1f4b1-9cd2-4ecd-b38c-d4030646f390</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>692d2466-bc2e-412f-8614-671cf9d141a1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc2d9faf-5256-4ed0-a347-739908087ad3</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24fb2bfb-1776-4301-b4b4-0a91ea38c25a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1570e3c-d351-4042-acf6-e8b2c8f61d6d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8259ddb-d6b0-4235-8691-7b414aa82b86</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fe2be6b-94c1-4d39-9215-91276215b038</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e95e801-8a36-4ce7-bb58-4a481148ef9c</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e169708a-398b-41b6-b192-a49f3748521c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2b1a8f6-044a-4a01-93e6-cdb7d5a03837</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a7cdf24-4f23-44b2-ad6e-a483e7464886</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ac9a830-2189-4b78-ab69-4ebbef2cdb8e</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2e9b6b0-dcdc-48d3-b76d-a3ffeab481ab</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23e84b4d-b394-48ca-b132-077d06821d07</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0424573a-b792-4925-aca3-a634ba7c1488</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ac0425e-38bc-4515-97e2-9cfbbc4e456f</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cf4db78-c405-48df-8585-f66abefd5a36</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa9cd39f-0582-4339-a2df-4a39258478b5</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>R_Network12</value>
+      <footprint>Resistor_THT:R_Array_SIP13</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network12" description="12 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b704e957-926b-497a-b469-1f01911cc579</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>R_Network12</value>
+      <footprint>Resistor_THT:R_Array_SIP13</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network12" description="12 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffabef5a-47a0-45ab-af18-3913c5fde21d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x04</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>037d5623-f917-47fd-8d8e-8a5eba3c077d</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92ff77bb-f94c-48d6-bec9-440776fcebea</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SP720</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="SP720" part="SP720" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dc2bf43-2a87-4b95-925f-2b49d0783052</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SP720</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="SP720" part="SP720" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd15e1db-65b5-4dbb-8a12-ccbb92a1dab9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Pico</value>
+      <footprint>MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH</footprint>
+      <libsource lib="MCU_RaspberryPi_and_Boards" part="Pico" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PiLogicAnalyzer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a6e5b54-0c2b-40c6-b4e9-6db7ea8f6c20</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Top_Bottom">
+      <description>Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x13_Top_Bottom">
+      <description>Generic connector, double row, 02x13, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x13_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network12">
+      <description>12 resistor network, star topology, bussed resistors, small symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network12</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP13</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+        <pin num="10" name="R9" type="passive"/>
+        <pin num="11" name="R10" type="passive"/>
+        <pin num="12" name="R11" type="passive"/>
+        <pin num="13" name="R12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N47xxA">
+      <description>1300mW Silicon planar power Zener diodes, DO-41</description>
+      <docs>https://www.vishay.com/docs/85816/1n4728a.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N47xxA</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85816/1n4728a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_RaspberryPi_and_Boards" part="Pico">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico</field>
+        <field name="Footprint">MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="41" name="SWCLK" type="input"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="SP720" part="SP720">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SP720</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="IN" type="input"/>
+        <pin num="5" name="IN" type="input"/>
+        <pin num="6" name="IN" type="input"/>
+        <pin num="7" name="IN" type="input"/>
+        <pin num="8" name="V-" type="power_in"/>
+        <pin num="9" name="IN" type="input"/>
+        <pin num="10" name="IN" type="input"/>
+        <pin num="11" name="IN" type="input"/>
+        <pin num="12" name="IN" type="input"/>
+        <pin num="13" name="IN" type="input"/>
+        <pin num="14" name="IN" type="input"/>
+        <pin num="15" name="IN" type="input"/>
+        <pin num="16" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_RaspberryPi_and_Boards">
+      <uri>C:\Users\jackp\Documents\GitHub\Personal\PiLogicAnalyzer/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="SP720">
+      <uri>C:\Users\jackp\Documents\GitHub\Personal\PiLogicAnalyzer/SP720.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="36" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="39" pinfunction="VSYS" pintype="power_in"/>
+    </net>
+    <net code="3" name="/ADC GND">
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="4" name="/ADC0">
+      <node ref="J2" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/ADC1">
+      <node ref="J2" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="U3" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ADC2">
+      <node ref="J2" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/OUT0">
+      <node ref="R0" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="13" pinfunction="R12" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/OUT1">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="12" pinfunction="R11" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/OUT2">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="11" pinfunction="R10" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/OUT3">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="10" pinfunction="R9" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/OUT4">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="9" pinfunction="R8" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/OUT5">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="8" pinfunction="R7" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/OUT6">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="7" pinfunction="R6" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/OUT7">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="R5" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/OUT8">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="R4" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/OUT9">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R3" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/OUT10">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="R2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/OUT11">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="R1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/OUT12">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="13" pinfunction="R12" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/OUT13">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="12" pinfunction="R11" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/OUT14">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="11" pinfunction="R10" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="19" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/OUT15">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="10" pinfunction="R9" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/OUT16">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="9" pinfunction="R8" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/OUT17">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="8" pinfunction="R7" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/OUT18">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="7" pinfunction="R6" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/OUT19">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="6" pinfunction="R5" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/OUT20">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="5" pinfunction="R4" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/OUT21">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="4" pinfunction="R3" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IN" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/OUT22">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="RN2" pin="3" pinfunction="R2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/RESET">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="31" name="/SWCLK">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="41" pinfunction="SWCLK" pintype="input"/>
+    </net>
+    <net code="32" name="/SWDIO">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="43" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad18)">
+      <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J2-Pad20)">
+      <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad22)">
+      <node ref="J2" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="R0" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="common" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="RN2" pin="1" pinfunction="common" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(R10-Pad2)">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(R11-Pad2)">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(R12-Pad2)">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(R13-Pad2)">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(R14-Pad2)">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(R15-Pad2)">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(R16-Pad2)">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R17-Pad2)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R18-Pad2)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(SW1-Pad5)">
+      <node ref="SW1" pin="5" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(SW1-Pad6)">
+      <node ref="SW1" pin="6" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(SW1-Pad7)">
+      <node ref="SW1" pin="7" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(SW1-Pad8)">
+      <node ref="SW1" pin="8" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="67" name="unconnected-(RN2-Pad2)">
+      <node ref="RN2" pin="2" pinfunction="R1" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3-Pad35)">
+      <node ref="U3" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-Pad37)">
+      <node ref="U3" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3-Pad40)">
+      <node ref="U3" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

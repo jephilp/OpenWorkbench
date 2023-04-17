@@ -1,0 +1,84 @@
+
+(rules PCB PiLogicAnalyzer
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5753)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 375.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    +5V /SWCLK /SWDIO GND +3V3 "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)"
+    "Net-(J2-Pad15)" "Net-(J2-Pad16)" "Net-(J2-Pad17)" "Net-(J2-Pad18)" "Net-(J2-Pad19)" "Net-(J2-Pad20)" "Net-(J2-Pad21)" "Net-(J2-Pad22)"
+    "Net-(J2-Pad23)" "Net-(JP1-Pad2)" "Net-(JP2-Pad2)" "Net-(JP3-Pad2)" "Net-(JP4-Pad2)" "Net-(JP5-Pad2)" /ADC2 /ADC0
+    /ADC1 /OUT0 /OUT1 /OUT2 /OUT3 /OUT4 /OUT5 /OUT6
+    /OUT7 /OUT8 /OUT9 /OUT10 /OUT11 /OUT12 /OUT13 /OUT14
+    /OUT15 /OUT16 /OUT17 /OUT18 /OUT19 /OUT20 /OUT21 /OUT22
+    "unconnected-(RN2-Pad2)" /RESET "/ADC GND" "unconnected-(U3-Pad35)" "unconnected-(U3-Pad37)" "unconnected-(U3-Pad40)" "Net-(SW1-Pad5)" "Net-(SW1-Pad6)"
+    "Net-(SW1-Pad7)" "Net-(SW1-Pad8)" +3.3V "Net-(J2-Pad1)" "Net-(R18-Pad2)" "Net-(R17-Pad2)" "Net-(R16-Pad2)" "Net-(R15-Pad2)"
+    "Net-(R14-Pad2)" "Net-(R13-Pad2)" "Net-(R12-Pad2)" "Net-(R11-Pad2)" "Net-(R10-Pad2)" "Net-(J2-Pad14)" "Net-(R26-Pad1)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 375.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 375.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
