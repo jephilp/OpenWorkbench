@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jackp\Documents\GitHub\Personal\EEBench\ATXVoltmeter\ATXVoltmeter\ATXVoltmeter.kicad_sch</source>
+    <date>4/1/2023 12:46:14 AM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ATXVoltmeter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be8ca802-36ac-49df-af98-afe5e50cb71d</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>+12V</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0d22caa-2f44-4909-a785-ce8eb095f786</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>+5V</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7747224d-a376-41e0-b381-b8a77d45ac94</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>+3.3V</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6daade78-75cf-4d3d-a68e-f90ac79a4183</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>-3.3V</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f30b42d7-da63-49ad-8e1e-3389c892cf25</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>-5V</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b94209a7-8808-4cb7-ad08-50196d381dbd</tstamps>
+    </comp>
+    <comp ref="F6">
+      <value>-12V</value>
+      <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86a274f5-eb02-4aef-84b0-1b8206e930c4</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da31d2e4-29c6-4d35-9628-5cc679e2c018</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>beccb6bf-7268-4b0d-931d-2f9bdd789c2c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30328f66-ca0a-49ba-ac43-68c3a14aa53f</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f67ca25e-d02e-4a17-be78-2c3c4f6e3c8f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SW12</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65907cc0-d42f-460e-af22-ef46ebf9ed4f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SW-3.3</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d65f9d8-12eb-482b-817e-e2d48c59a630</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>SW5</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9acab33-c22c-4f63-a6b4-053f78b8e1d1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95ea735f-50be-43f5-90c5-4490c22e9ef5</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SW-5</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f148b7e5-c783-4cd4-8782-22a3352955e5</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SW3.3</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc85d087-e61e-47b4-82db-6e1ec44675d8</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>SW-12</value>
+      <footprint>Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2337b25-ea80-486f-bf1c-85eb623ed8f8</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x12_Top_Bottom</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-2412_2x12_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x12_Top_Bottom" description="Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84fae483-8a62-4d12-beef-6a44ec69bd61</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>YK3210703000G</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_7-G-7,62_1x07_P7.62mm_Vertical</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x07" description="Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2baae4bc-6c9e-4ee8-93c6-f6b0d4737c94</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f928fdab-d547-4800-9547-38d7b30dcb70</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>-5 ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a2da42e-9886-4521-b3df-caa4049b7768</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>-12V Enable</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0496a93-b8ca-4091-87d4-be82b3744213</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>-12V Enable</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3de8241e-e79e-4327-a484-a58afa8de7a9</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>+12V ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88212bb4-bbad-47b9-a538-c8f4060b96cd</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>+5V ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>397bf2c4-e9d2-4c02-95af-556b734e68ee</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>+3.3V ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0144ba6e-7f33-48dd-ad78-7666c06b7cf7</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>+12V ENABLe</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e70aca4-74fc-4c3d-914b-e0b43a924d7d</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>+5V ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c417b7c9-002a-4613-9b52-5ea6ddb60fd4</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>+3.3 ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa60dc9a-f4bc-4055-8d59-b918ebd166c9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53cebcc3-a19a-4b2c-8818-01c455dcb29f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdb3db7d-43a1-4dd1-9afa-7ba57856e21f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0.1</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f54e3f71-e9dc-4728-8865-56bd1514a180</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0.1</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>062e727b-8a46-42bd-80fc-43801e02cbba</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feae4f52-d966-4ad2-a992-08976f54754b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>0.1</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3912564-f6a7-4a5b-b041-49fe763b118d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0.1</value>
+      <footprint>Resistor_THT:R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc99c405-ef0e-469d-a8d5-e692af8289dc</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24181469-fb55-43e6-93c5-efa363e46e1c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>118cb667-130c-4ad1-ac21-e33ec8622713</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>5R 5W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe7c7a1-5341-4b52-a031-19fe9a0d9452</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58d832a3-6165-480a-b5bf-8ef3da19bc76</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c05f3ba-2410-4cde-9d8d-a26d6163220d</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b459919d-3ca2-43c0-853b-af0cf64406c9</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21686f46-9171-4747-b4d0-d2188b041d18</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>503926f8-1c3d-43e6-b009-bddaa99978c5</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e7de029-bdcb-4b4e-8eb5-595d3575eb11</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cd9efbc-f192-47c6-b5e7-97c6e080dc8a</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Array_SIP7</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network06" description="6 resistor network, star topology, bussed resistors, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89e58b06-ea75-4044-bd1a-5e3146196db0</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61c78391-3e1a-4ba4-a3bf-bca1644112e6</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>-3.3V TEST</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b54d96a1-bd92-4b2d-875c-508eecfafe0e</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>-5V TEST</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5be59b69-7959-4855-9c19-1c229d605145</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NCV0372BDWR2G</value>
+      <footprint>footprints:NCV0372BDWR2G</footprint>
+      <libsource lib="2023-03-27_23-47-59" part="NCV0372BDWR2G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69099220-41f8-4090-9d1e-b75f9a989886</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>INA4180A2IPWR</value>
+      <footprint>footprints:SOP65P640X120-14N</footprint>
+      <libsource lib="INA4180A1IPWR" part="INA4180A1IPWR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7cda805-7919-44ba-a0a4-4a8165406afe</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ATtiny1626-S</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1624-26-27-DataSheet-DS40002234A.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny1626-S" description="20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, SOIC-20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ATXVoltmeter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fa1d660-a936-415e-a43c-1ba7ebae449e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2023-03-27_23-47-59" part="NCV0372BDWR2G">
+      <footprints>
+        <fp>SOIC-16WB_ONS</fp>
+        <fp>SOIC-16WB_ONS-M</fp>
+        <fp>SOIC-16WB_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCV0372BDWR2G</field>
+        <field name="Footprint">SOIC-16WB_ONS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="OUTPUTB" type="output"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VEE/GND" type="power_in"/>
+        <pin num="5" name="VEE/GND" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="INPUTSB" type="input"/>
+        <pin num="8" name="INPUTSB" type="input"/>
+        <pin num="9" name="INPUTSA" type="input"/>
+        <pin num="10" name="INPUTSA" type="input"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="VEE/GND" type="power_in"/>
+        <pin num="13" name="VEE/GND" type="power_in"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="OUTPUTA" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x07">
+      <description>Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x07</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x12_Top_Bottom">
+      <description>Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x12_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network06">
+      <description>6 resistor network, star topology, bussed resistors, small symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network06</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP7</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="INA4180A1IPWR" part="INA4180A1IPWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA4180A1IPWR</field>
+        <field name="Footprint">SOP65P640X120-14N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT1" type="output"/>
+        <pin num="2" name="IN-1" type="input"/>
+        <pin num="3" name="IN+1" type="input"/>
+        <pin num="4" name="VS" type="bidirectional"/>
+        <pin num="5" name="IN+2" type="input"/>
+        <pin num="6" name="IN-2" type="input"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="OUT3" type="output"/>
+        <pin num="9" name="IN-3" type="input"/>
+        <pin num="10" name="IN+3" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="IN+4" type="input"/>
+        <pin num="13" name="IN-4" type="input"/>
+        <pin num="14" name="OUT4" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny1626-S">
+      <description>20MHz, 16kB Flash, 2kB SRAM, 256B EEPROM, SOIC-20</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1624-26-27-DataSheet-DS40002234A.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x12.8mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny1626-S</field>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1624-26-27-DataSheet-DS40002234A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="PA4" type="bidirectional"/>
+        <pin num="3" name="PA5" type="bidirectional"/>
+        <pin num="4" name="PA6" type="bidirectional"/>
+        <pin num="5" name="PA7" type="bidirectional"/>
+        <pin num="6" name="PB5" type="bidirectional"/>
+        <pin num="7" name="PB4" type="bidirectional"/>
+        <pin num="8" name="PB3" type="bidirectional"/>
+        <pin num="9" name="PB2" type="bidirectional"/>
+        <pin num="10" name="PB1" type="bidirectional"/>
+        <pin num="11" name="PB0" type="bidirectional"/>
+        <pin num="12" name="PC0" type="bidirectional"/>
+        <pin num="13" name="PC1" type="bidirectional"/>
+        <pin num="14" name="PC2" type="bidirectional"/>
+        <pin num="15" name="PC3" type="bidirectional"/>
+        <pin num="16" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="17" name="PA1" type="bidirectional"/>
+        <pin num="18" name="PA2" type="bidirectional"/>
+        <pin num="19" name="PA3" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2023-03-27_23-47-59">
+      <uri>C:\Users\jackp\Documents\GitHub\Personal\EEBench\ATXVoltmeter\ATXVoltmeter/2023-03-27_23-47-59.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="INA4180A1IPWR">
+      <uri>C:\Users\jackp\Documents\GitHub\Personal\EEBench\ATXVoltmeter\ATXVoltmeter/INA4180A1IPWR.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VS" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="4" name="-3V3">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="-5V">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="-12V">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VEE/GND" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="VEE/GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VEE/GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VEE/GND" pintype="power_in"/>
+    </net>
+    <net code="7" name="/+3.3">
+      <node ref="U2" pin="14" pinfunction="OUT4" pintype="output"/>
+      <node ref="U3" pin="18" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/+3.3D">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="R4" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/+3.3IN">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/+5">
+      <node ref="U2" pin="8" pinfunction="OUT3" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/+5D">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="R5" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/+5IN">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J8" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J8" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J8" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/+5USB">
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="14" name="/+12">
+      <node ref="U2" pin="1" pinfunction="OUT1" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/+12D">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="7" pinfunction="R6" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/+12IN">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="17" name="/-3.3">
+      <node ref="U3" pin="17" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/-3.3D">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R3" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/-3.3IN">
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="OUTPUTA" pintype="output"/>
+    </net>
+    <net code="20" name="/-5">
+      <node ref="U3" pin="19" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/-5D">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="R2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/-5IN">
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="J8" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="23" name="/-12">
+      <node ref="U2" pin="7" pinfunction="OUT2" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/-12D">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="R1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/-12IN">
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="26" name="/-12V+">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/3.3V+">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/5V+">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/12V+">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/PSON">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="31" name="/PWROK">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="/RESET">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/SCL">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/SDA">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J8" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J8" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J8" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J8" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="TP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="INPUTSB" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="INPUTSA" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(F3-Pad2)">
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(F4-Pad2)">
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(F5-Pad2)">
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(F6-Pad2)">
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUTPUTB" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="IN+2" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IN-2" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN+1" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="IN+3" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="IN+4" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(JP7-Pad2)">
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="IN-1" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(JP8-Pad2)">
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="IN-3" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(JP9-Pad2)">
+      <node ref="JP9" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="IN-4" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="INPUTSB" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="INPUTSA" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
