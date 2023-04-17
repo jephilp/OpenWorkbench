@@ -15,3 +15,4 @@ To get started I'm going to add my Logic Analyzer. It's built off of the Pi Pico
 
 ## Current Projects:
 - ATX Voltmeter
+- Pi Logic Analyzer
