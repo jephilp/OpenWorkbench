@@ -12,3 +12,6 @@ To get started I'm going to add my Logic Analyzer. It's built off of the Pi Pico
 - Create a list of basic BUILDABLE equipment.
 - Create a list of BUYABLE equipment.
 - Choose a mounting system (I'm thinking DIN rails).
+
+## Current Projects:
+- ATX Voltmeter
